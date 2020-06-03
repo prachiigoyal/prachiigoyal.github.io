@@ -1,0 +1,63 @@
+.menu{
+	text-align: center;
+	width:100%;
+	
+
+}
+.chicken{
+	width: 47%;
+	padding-left:2px;
+	padding-right:0px;
+	background-color:lightgray;
+	border:2px solid black;
+	float: left;
+	margin: 10px;
+	text-align: center;
+	font-family: Georgia,sans-serif;
+
+}
+
+
+
+.sushi{
+	height: 100px
+	width:97%;
+	padding-left:2px;
+	padding-right:0px;
+	margin-top:305px;
+	background-color: lightgray;
+	border:2px solid black;
+	clear: left;
+	margin-left: 10px;
+	font-family: Georgia,sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+.innerdiv
+{	padding-right:12px ;
+	padding-left:12px ;
+
+	background-color: lightgray;
+	border:1px solid black;
+	clear: left;
+	float:right;
+	text-align: center;
+	 font-size: 15px;
+
+}
+@media (min-width: 992px) {
+	.chicken.sushi{
+		width:100%;
+
+	}
+@media (min-width: 768px) and (max-width: 991px) {
+	.chicken.sushi{
+		width:75%;
+	}
+}
+@media (max-width: 768px) {
+	.chicken.sushi{
+		width:50%;
+	}
